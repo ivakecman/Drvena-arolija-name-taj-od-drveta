@@ -1,0 +1,545 @@
+*{
+    font-family: 'Franklin Gothic Medium' ;
+}
+
+html{
+    background-color: bisque;
+}
+
+.navbar{
+    background-color: #b2ac88;
+}
+
+.navbar h1{
+    color: #4f3d18;
+    float: left;
+    font-weight: bold;
+    font-size: 50px;
+    background-color:	#b2ac88;
+    padding: 10px 0px 0px 30px; 
+    font-family: 'Franklin Gothic Medium';
+
+    animation-name: carolija;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes carolija{
+    0%{
+        margin-bottom: 6%;
+    }
+    50%{
+        margin-top: 3%;
+    }
+    100%{
+        margin-bottom: 6%;
+    }
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    list-style-type: none;
+    font-size: 40px;
+    padding: 50px;
+    
+}
+
+.navmenu li a{
+    font-family: 'Franklin Gothic Medium';
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+}
+
+.navmenu li a:hover{
+    background-color: #4f3d18 ;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.navimage{
+    background-image: url(../vts/pexels-anastasia-shuraeva-6232447.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75%;
+    opacity: 86%;
+    padding: 10px 0px 40px 0px;
+}
+
+h2{
+    text-align: center;
+    color: #19191c;
+    font-size: 100px;
+    font-family: 'Segoe UI';
+    padding-top: 20px;
+
+    animation-name: dobrodosli;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dobrodosli{
+    0%{
+        font-size: 90px;
+    }
+    50%{
+        font-size: 100px;
+    }
+    100%{
+        font-size: 90px;
+    }
+}
+
+h3{
+    text-align: center;
+    color: #19191c;
+    font-size: 60px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    padding-bottom: 100px;
+}
+
+
+.home p{
+    margin: 50px 50px 100px 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color: #4f3d18 ;
+    background-color: #b2ac88;
+    border-radius: 20px;
+}
+
+.home p i{
+    font-weight: bold;
+}
+
+.card{
+    text-align: center;
+    color: #4f3d18;
+    font-size: 40px;
+    font-family: 'Gill Sans';
+    background-color: #b2ac88;
+    border-radius: 10px;
+    margin: 0px 800px 0px 800px;
+}
+
+.card1{
+    display: flex;
+    margin-left: 100px;
+    color: #4f3d18;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 20px;
+    word-spacing: 5px;
+    line-height: 43px;
+}
+
+.product p{
+    color: chocolate;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 100px 70px 0px 70px;
+
+
+}
+
+.button{
+    display: flex;
+    font-size: 40px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button a{
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: chocolate;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.button a:hover{
+    background-color: darkgoldenrod;
+}
+
+.bottom-panel{
+    margin-top: 150px;
+    background-color: #b2ac88;
+    
+}
+
+.bottom-panel p{
+    text-align: center;
+    font-size: 30px;
+    color: #4f3d18;
+    font-weight: bold;
+}
+
+.bottom-panel a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.bottom-panel a:hover{
+    color: blue;
+}
+
+.onama{
+    background-image: url(../vts/pexels-matej-761535.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+}
+
+.onama h1{
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: #4f3d18;
+    font-size: 100px;
+    font-weight: bold;
+    background-size: cover;
+    padding-bottom: 130px;
+}
+
+.godine{
+    border: #19191c 1px solid;
+    padding: 0px;
+}
+
+.godine p{
+    text-align: center;
+    font-size: 60px;
+    color: maroon;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.istorija p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4f3d18;
+}
+
+
+.istorija h1{
+    text-align: justify;
+    color: #4f3d18;
+    font-style: italic;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.istorija2 p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4f3d18;
+}
+
+.istorija2 h1{
+    text-align: justify;
+    color: #4f3d18;
+    font-style: italic;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+
+}
+
+.istorija2 h1 a{
+    color: brown;
+    text-decoration: none;
+}
+
+.istorija2 h1 a:hover{
+    color: chocolate;
+}
+
+.istorija2 p{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4f3d18;
+}
+
+.proizvodi{
+    background-image: url(../vts/pexels-matej-761535.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+}
+
+.proizvodi h1{
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: #4f3d18;
+    font-size: 100px;
+    font-weight: bold;
+    background-size: cover;
+    padding-bottom: 130px;
+
+}
+
+.vrste h1{
+    text-align: center;
+    color: #4f3d18;
+    font-size: 40px;
+    margin: 50px;
+
+}
+
+.vrste p{
+    text-align: center;
+    color: brown;
+    font-size: 35px;
+}
+
+.cene{
+    text-align: left;
+    font-size: 40px;
+    margin: 130px 100px 0px 100px;
+    color: darkgreen;
+    font-style: italic;
+}
+
+.gotovi{
+    color: #4f3d18;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ponude{
+    display: flex;
+    margin: 50px;
+}
+
+
+.ponude img{
+    display: inline;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.ponude a{
+    display: flex;
+    font-size: 30px;
+    color: #4f3d18;
+    text-decoration: none;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.ponude .ime2 img{
+    width: 400px;
+}
+
+.komode{
+    display: flex;
+    margin: 100px;
+}
+
+.komode img{
+    display: inline;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.komode a{
+    display: flex;
+    font-size: 30px;
+    color: #4f3d18;
+    text-decoration: none;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+
+.kontakt{
+    background-image: url(../vts/pexels-matej-761535.jpg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.kontakt h1{
+    display: block;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: #4f3d18;
+    font-size: 100px;
+    font-weight: bold;
+    background-size: cover;
+    padding-bottom: 130px;
+}
+
+.br h1{
+    text-align: center;
+    color: #4f3d18;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px;
+}
+.br p{
+    text-align: center;
+    color: chocolate;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.br p:hover{
+    color: #b2ac88;
+}
+
+.pitanja{
+    width: 900px;
+    height: 700px;
+    margin: 100px 400px;
+    text-align: center;
+}
+
+.pitanja h1{
+    color: #4f3d18;
+    font-size: 40px;
+}
+
+.pitanja .forma p{
+    color: #4f3d18;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.pitanja .forma input{
+    margin-left: 300px;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+
+.pitanja .forma button{
+    text-align: left;
+    margin-left: 300px;
+    font-size: 40px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: cadetblue;
+}
+
+.pitanja .forma button:hover{
+    background-color: aqua;
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .navbar{
+        display: flex;
+    }
+    .navmenu{
+        display: block;
+        padding: 20px 500px;
+        width: 100%;
+        text-align: center;
+        background-color: #b2ac88;
+    }
+    .navimage{
+        width: 1266px;
+        height: 500px;
+    }
+    .navimage h2 h3{
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+    .home{
+        display: flex;
+        width: 1100px;
+        margin-left: 100px;
+    }
+    .card{
+        margin: 0px;
+    }
+    .card1{
+        width: 1000px;
+    }
+    .product{
+        width: 1200px;
+    }
+    .product p{
+        margin: 80px 0px;
+        text-align: center;
+    }
+    .button{
+        margin-left: 600px;
+    }
+    .button a{
+        text-align: center;
+    }
+    .bottom-panel{
+        width: 1300px;
+    }
+    .proizvodi{
+        width: 1350px;
+    }
+    .vrste{
+        width: 1400px;
+    }
+    .cene{
+        width: 1300px;
+        text-align: center;
+    }
+    .gotovi h1{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .navbar{
+        display: flex;
+    }
+    .navmenu{
+        display: block;
+        padding: 20px 300px;
+        text-align: center;
+        background-color: #b2ac88;
+    }
+    .istorija h1{
+        margin-left: 20%;
+        width: 500px;
+    }
+    .istorija2 h1{
+        margin-left: 20%;
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
